@@ -48,6 +48,10 @@ phishshaala/
 ├── challenge.html              # Interactive phishing quiz (Alpine.js)
 ├── scorecard.html              # Quiz results, score ring & badge
 │
+├── api/                        # Vercel Serverless Functions
+│   ├── questions.js            # API route for fetching questions
+│   └── submit.js               # API route for answer validation
+│
 ├── css/
 │   ├── style.css               # Shared styles: light-mode header/nav overrides, delay utilities
 │   ├── index.css               # Home page: tilt-card, particles, scroll-reveal
@@ -56,14 +60,18 @@ phishshaala/
 │   ├── challenge.css           # Challenge page: glass-panel, slideIn, email body
 │   └── scorecard.css           # Scorecard page: score-circle, animate-score keyframe
 │
-└── js/
-    ├── theme.js                # Dark/light mode toggle — FOUC prevention, localStorage
-    ├── main.js                 # Shared JS placeholder
-    ├── index.js                # Home: hero parallax, IntersectionObserver, cyber-canvas
-    ├── learning.js             # Learning: hero parallax, fade-up observer, accordion handler
-    ├── advance-learning.js     # Advanced: showSection(), markComplete(), hash routing
-    ├── challenge.js            # Challenge: placeholder (logic lives in Alpine.js x-data)
-    └── scorecard.js            # Scorecard: score animation, badge assignment, breakdown
+├── js/
+│   ├── theme.js                # Dark/light mode toggle — FOUC prevention, localStorage
+│   ├── main.js                 # Shared JS placeholder
+│   ├── index.js                # Home: hero parallax, IntersectionObserver, cyber-canvas
+│   ├── learning.js             # Learning: hero parallax, fade-up observer, accordion handler
+│   ├── advance-learning.js     # Advanced: showSection(), markComplete(), hash routing
+│   ├── challenge.js            # Challenge: placeholder (logic lives in Alpine.js x-data)
+│   └── scorecard.js            # Scorecard: score animation, badge assignment, breakdown
+│
+├── .gitignore                  # Git ignore file
+├── README.md                   # Project documentation
+└── vercel.json                 # Vercel configuration file
 ```
 
 ---
