@@ -130,9 +130,8 @@ Or connect your GitHub repo to [vercel.com](https://vercel.com) for automatic de
 
 | Role | Name / Resource |
 |---|---|
-| Developer | *[Add your name here]* |
+| Team Name | Err0r 403 |
 | Team Members | Utkarsh Sharma (Leader - Bug Fixes and UI/UX Developer)<br>Piyush Agarwal (UI/UX Developer and The Thinker)<br>Trassud Afroz (UI/UX Developer and Bug Fixes & Final Deployment Stability Lead) |
-| Design Inspiration | *[Add references here]* |
 | Icons | [Google Material Symbols](https://fonts.google.com/icons) |
 | CSS Framework | [Tailwind CSS](https://tailwindcss.com/) |
 | Reactivity Library | [Alpine.js](https://alpinejs.dev/) |
