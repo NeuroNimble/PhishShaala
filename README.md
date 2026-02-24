@@ -2,7 +2,7 @@
 
 > **PhishShaala** is an interactive cybersecurity awareness platform that teaches users how to identify phishing attacks — including email scams, SMS smishing, voice vishing, and social-media deception — through guided lessons and a live scenario-based challenge.
 
-**Live Demo:** [Add your deployed link here]
+**Live Demo:** [https://phish-shaala.vercel.app/](https://phish-shaala.vercel.app/)
 
 > **Architecture:** The quiz answer key is stored exclusively in Vercel serverless backend functions (`/api`) and never sent to the client. The frontend fetches only the scenario content and submits answers to the API for validation.
 
@@ -131,7 +131,7 @@ Or connect your GitHub repo to [vercel.com](https://vercel.com) for automatic de
 | Role | Name / Resource |
 |---|---|
 | Developer | *[Add your name here]* |
-| Team Members | *[Add team members here]* |
+| Team Members | Utkarsh Sharma (Leader - Bug Fixes and UI/UX Developer)<br>Piyush Agarwal (UI/UX Developer and The Thinker)<br>Trassud Afroz (UI/UX Developer and Bug Fixes & Final Deployment Stability Lead) |
 | Design Inspiration | *[Add references here]* |
 | Icons | [Google Material Symbols](https://fonts.google.com/icons) |
 | CSS Framework | [Tailwind CSS](https://tailwindcss.com/) |
